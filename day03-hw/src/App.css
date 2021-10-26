@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+   
+}
+h2{
+  color: rgb(212, 27, 27);
+  font-family:serif;
+   
+}
+ h3{
+   color: royalblue;
+   font-family: cursive;
+ }
+.Input{
+  margin: 1ch;
+  padding: 1ch;
+}
+input{
+  padding:  1ch 2ch;
+}
+.add{
+  background-color: rgb(141, 218, 141);
+  padding: 1ch 1ch;
+  margin: 1ch;
+}
+.rem{
+  background-color: rgb(230, 57, 57);
+  padding: 1ch;
+  margin: 1ch;
+}
