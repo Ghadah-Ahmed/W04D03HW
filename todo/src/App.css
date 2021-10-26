@@ -1,5 +1,10 @@
 .App {
-  margin-left: 10%;
+  margin: 0 5%;
+}
+.big-title{
+  text-align: center;
+  background-color: ghostwhite;
+  padding: 40px 0;
 }
 .form{
   margin-top: 3%;
@@ -28,4 +33,12 @@ button, input{
 
 .app-div button{
   margin-top: 0;
+}
+.temperature-form{
+  margin-top: 50px;
+  width: 400px;
+}
+
+fieldset{
+  margin-top: 20px;
 }
