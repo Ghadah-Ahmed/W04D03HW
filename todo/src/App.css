@@ -4,3 +4,28 @@
 .form{
   margin-top: 3%;
 }
+span{
+  padding: 5px 10px;
+  border: 1px grey solid;
+  border-radius: 50%;
+}
+.app-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+li{
+  width: 70%;
+}
+
+button, input{
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.app-div button{
+  margin-top: 0;
+}
