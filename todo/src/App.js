@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import Temperature from './Temperature';
 import TodoHW from './TodoHW';
+import W04D04HW from './W04D04HW';
 
 // class App extends React.Component {
 
@@ -40,6 +41,9 @@ function App() {
       <Temperature/>
       <br/><br/> <hr/> 
 
+      <h2> useState, useEffect, axios:</h2>
+      <W04D04HW/>
+      <br/><br/> <hr/> 
     </div>
   );
 }

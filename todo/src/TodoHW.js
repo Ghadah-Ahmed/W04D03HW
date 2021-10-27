@@ -53,8 +53,8 @@ export default function TodoHW() {
         <div>
             <h3>TO DO</h3>
             {toDoList.map((task) => (
-            <div className='app-div'>
-                <li style={{ textDecoration: task.isDone ? "line-through" : "" }} key={task.id}>{task.task}</li>
+            <div  key={task.id} className='app-div'>
+                <li style={{ textDecoration: task.isDone ? "line-through" : "" }}>{task.task}</li>
                 <button onClick={() => completed(task)}>COMPLETED</button> 
                 <span onClick={() => deleteItem(task.id)}>X</span>
             </div>

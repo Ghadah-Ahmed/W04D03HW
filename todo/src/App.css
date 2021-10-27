@@ -42,3 +42,18 @@ button, input{
 fieldset{
   margin-top: 20px;
 }
+
+.W04D04HW-div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.W04D04HW-card{
+  width: 300px;
+}
+
+.W04D04HW-button{
+  text-align: center;
+  margin-bottom: 30px;
+}
