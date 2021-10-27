@@ -47,13 +47,19 @@ fieldset{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .W04D04HW-card{
   width: 300px;
+  margin-bottom: 30px;
 }
 
 .W04D04HW-button{
   text-align: center;
   margin-bottom: 30px;
+}
+
+.axoisLab-img{
+  width: 300px;
 }

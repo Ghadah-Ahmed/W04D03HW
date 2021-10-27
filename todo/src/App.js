@@ -4,6 +4,8 @@ import './App.css';
 import Temperature from './Temperature';
 import TodoHW from './TodoHW';
 import W04D04HW from './W04D04HW';
+import UseEffectLab from './useEffectLab';
+import AxoisLab from './AxoisLab';
 
 // class App extends React.Component {
 
@@ -43,6 +45,14 @@ function App() {
 
       <h2> useState, useEffect, axios:</h2>
       <W04D04HW/>
+      <br/><br/> <hr/> 
+
+      <h2>useEffect Hook Lab:</h2>
+      <UseEffectLab/>
+      <br/><br/> <hr/> 
+
+      <h2>Sending http request with axois:</h2>
+      <AxoisLab/>
       <br/><br/> <hr/> 
     </div>
   );

@@ -6,12 +6,6 @@ export default function W04D04HW() {
     const [resourceType, setResourceType] = React.useState("anime");
     const [items, setItems] = React.useState([]);
 
-    // const getData = () => {
-    //     axios.get(`https://kitsu.io/api/edge//trending/${resourceType}`)
-    //     .then(data => setItems(data.data.data))
-    //     .catch(err => console.log(err))
-    // }
-    // getData()
 
     React.useEffect(() => {
     const getData = () => {
