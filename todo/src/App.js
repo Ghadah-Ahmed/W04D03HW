@@ -6,6 +6,8 @@ import TodoHW from './TodoHW';
 import W04D04HW from './W04D04HW';
 import UseEffectLab from './useEffectLab';
 import AxoisLab from './AxoisLab';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import UseContextLab from './UseContextLab';
 
 // class App extends React.Component {
 
@@ -33,28 +35,31 @@ function App() {
 
 
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
       <h1 className='big-title'> MY HOMEWORKS AND LABS</h1>
-      <h2>Todo HW:</h2>
-      <TodoHW/>
-      <br/><br/> <hr/> 
+          <ul className='nav'>
+              <li><Link to="/TodoHW">TodoHW</Link></li>
+              <li><Link to="/Temperature">Temperature</Link></li>
+              <li><Link to="/useEffectLab">UseEffectLab</Link></li>
+              <li><Link to="/W04D04HW">W04D04HW</Link></li>
+              <li><Link to="/AxoisLab">AxoisLab</Link></li>
+              <li><Link to="/UseContextLab">UseContextLab</Link></li>
+          </ul>
+               <br/><br/> <hr/> 
+          <Switch>
+            <div className='switch-div'>
+              <Route path="/TodoHW"><TodoHW /></Route>
+              <Route path="/Temperature"><Temperature /></Route>
+              <Route path="/useEffectLab"><UseEffectLab /></Route>
+              <Route path="/W04D04HW"><W04D04HW /></Route>
+              <Route path="/AxoisLab"><AxoisLab /></Route>
+              <Route path="/UseContextLab"><UseContextLab/></Route>
 
-      <h2>Temperature Lab:</h2>
-      <Temperature/>
-      <br/><br/> <hr/> 
-
-      <h2> useState, useEffect, axios:</h2>
-      <W04D04HW/>
-      <br/><br/> <hr/> 
-
-      <h2>useEffect Hook Lab:</h2>
-      <UseEffectLab/>
-      <br/><br/> <hr/> 
-
-      <h2>Sending http request with axois:</h2>
-      <AxoisLab/>
-      <br/><br/> <hr/> 
-    </div>
+            </div>
+          </Switch>
+      </div>
+    </Router>
   );
 }
 
